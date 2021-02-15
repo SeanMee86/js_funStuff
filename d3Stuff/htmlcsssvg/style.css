@@ -1,0 +1,8 @@
+body {
+    font-size: 3em;
+    font-family: monospace;
+}
+
+.selected {
+    color: red;
+}
