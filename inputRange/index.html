@@ -6,12 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="main.js" defer></script>
+    <script src="build/ts-bundle.js" defer></script>
 </head>
 <body>
+<h2>Feature One</h2>
+<input type="number" id="myNumber" value="0" min="0">
+
+<h2>Feature Two</h2>
 <input type="range" id="myRange" min="0" max="100" value="0">
-<div id="rangeValue"></div>
-<input type="number" id="myNumber" value="0">
-<div id="costOf"></div>
+
+<h2>Feature Three</h2>
+<input type="number" id="myNumThree" value="0" min="0">
+
+<p>Cost of Total Features: <span id="costOf"></span></p>
 </body>
 </html>
